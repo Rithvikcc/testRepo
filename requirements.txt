@@ -1,0 +1,19 @@
+# Medicine Identification API — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# OCR
+pytesseract==0.3.13
+Pillow==11.1.0
+
+# OpenAI SDK (v1.x)
+openai==1.65.3
+
+# Data validation (FastAPI depends on this, pinned for stability)
+pydantic==2.10.6
+
+# Async form/file handling used by FastAPI
+python-multipart==0.0.20
